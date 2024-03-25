@@ -1,0 +1,18 @@
+package com.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class EmployeeDao {
+@Autowired
+DataSource ds;
+
+public int storeEmployee() {
+	try {
+		
+	}catch(Exception e) {
+		
+	}
+}
+}
